@@ -3,14 +3,14 @@ TI from Resource Explorer was used to make help code this project.
 
 
 # BUTTONBLINK
-This lab required to makea button Blink for the MSP430 boards. To do this multiple pieces of code where needed. Each board had LEDS and buttons connected to different pins. 
+This lab required to make a led blink for the MSP430 boards. To do this multiple pieces of code where needed. Each board had LEDS and buttons connected to different pins. 
 The code for all 5 boards had the same header file. This file was the #include<msp430.h>. This contains all the built in functions for the msp430.
 Inside the void function the watchdog timer has to be stopped,this is done by
-the code WDTCTL=WDTPW +WDTHOLD. This code makes the processor is not stuck in an infinite
-loop. The next steop configures the GPIO pins.
+the code WDTCTL=WDTPW +WDTHOLD. This code makes sure the processor is not stuck in an infinite
+loop. The next step is to configure the GPIO pins.
 
 #SETTING GPIO
-This step is different for each board. The desription for each GPIO is shown below.
+This step is different for each board. The description for each board is shown below.
 BUTTONS:
 G2: P1.3
 5529:P2.1 P1.1
