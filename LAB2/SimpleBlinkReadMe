@@ -1,3 +1,6 @@
+#SampleCode
+TI from Resource Explorer was used to make help code this project.
+
 # SIMPLEBLINK
 This lab required to toggle the leds for the MSP430 boards. To do this multiple pieces of code where needed. Each board had LEDS and buttons connected to different pins. 
 The code for all 5 boards had the same header file. This file was the #include<msp430.h>. This contains all the built in functions for the msp430.
